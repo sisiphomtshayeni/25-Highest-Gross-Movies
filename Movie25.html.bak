@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h1>Highest Grossing Movies</h1>
+
+<table id="customers">
+  <tr>
+    <th>Year</th>
+    <th>Movie</th>
+    <th>Total box-office earnings</th>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>Jurassic World </td>
+    <td>$652,270,625</td>
+  </tr>
+  <tr>
+    <td>2016</td>
+    <td>Star Wars: Episode VII - The Force Awakens</td>
+    <td>$936,662,225</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>Avengers: Age of Ultron</td>
+    <td>$459,005,868</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>Inside Out</td>
+    <td>$356,461,711</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>Furious 7</td>
+    <td>$353,007,020</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>American Sniper</td>
+    <td>$350,126,372</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>Minions</td>
+    <td>$336,045,770</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>The Hunger Games: Mockingjay - Part 2</td>
+    <td>$281,723,902</td>
+  </tr>
+  <tr>
+    <td>2016</td>
+    <td>The Martian</td>
+    <td>$228,433,663</td>
+  </tr>
+  <tr>
+    <td>2016</td>
+    <td>Cinderella</td>
+    <td>$201,151,353</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>Spectre</td>
+    <td>$652,270,625</td>
+  </tr>
+  <tr>
+    <td>2016</td>
+    <td>Mission: Impossible - Rogue Nation</td>
+    <td>$936,662,225</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>Pitch Perfect 2</td>
+    <td>$459,005,868</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>Ant-Man</td>
+    <td>$356,461,711</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>Home</td>
+    <td>$353,007,020</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>Hotel Transylvania 2</td>
+    <td>$350,126,372</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>Fifty Shades of Grey</td>
+    <td>$336,045,770</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>The SpongeBob Movie: Sponge Out of Water</td>
+    <td>$181,723,902</td>
+  </tr>
+  <tr>
+    <td>2016</td>
+    <td>Straight Outta Compton</td>
+    <td>$128,433,663</td>
+  </tr>
+  <tr>
+    <td>2016</td>
+    <td>San Andreas</td>
+    <td>$101,151,353</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>Mad Max: Fury Road</td>
+    <td>$153,007,020</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>The Divergent Series: Insurgent</td>
+    <td>$150,126,372</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>The Peanuts Movie</td>
+    <td>$136,045,770</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>Spy</td>
+    <td>$111,723,902</td>
+  </tr>
+  <tr>
+    <td>2016</td>
+    <td>The Good Dinosaur</td>
+    <td>$108,433,663</td>
+  </tr>
+  <tr>
+    <td>2016</td>
+    <td>Trainwreck</td>
+    <td>$101,151,353</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
